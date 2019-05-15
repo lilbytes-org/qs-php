@@ -1,1 +1,7 @@
 buildPack: php
+pipelineConfig:
+  pipelines:
+    feature:
+      build:
+        preSteps:
+        - command: echo hello
